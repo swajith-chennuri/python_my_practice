@@ -1,0 +1,15 @@
+print("example of function and  methods of dictionary ")
+print("1. dict.formkey() function")
+subject = ['CSA','C++','DS','OS']
+marks = dict.formkey(subject,-1)
+print(marks)
+print("2.dict.get(key) method()")
+dic1 = {'HTNO':'2205A41L03','Name':'swajith','course':'ECE b.tech','Year':'2st','sem':'3rd'}
+print("dictionary1 = ",dic1)
+print("Name key value in dictionary1 = ",dic1.get('Name'))
+print("Year key value in dictionary1 = ",dic1.get('Year'))
+print("Sem  key value in dictionary1 = ",dic1.get('sem'))
+print("3. dict.has_key(key) method")
+print("Year key is persent in dictionary1 = ",'Year' in dic1)
+print("sem key is persent in dictionary1 " ,'Sem' in dic1)
+print("")

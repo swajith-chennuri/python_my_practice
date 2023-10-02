@@ -1,0 +1,7 @@
+#range (starting,end,stepsize)
+a=list(range(0,10))
+print(a)
+b=list(range(10,-0,-1))
+print(b)
+c=list(range(10,-10,-1))
+print(c)

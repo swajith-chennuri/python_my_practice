@@ -1,0 +1,10 @@
+l1 = [1,2,3,4,5]
+print("l1 = ",l1)
+l1.insert(2,4)
+print("l1 = ",l1)
+l1.insert(20,10)
+print("l1 = ",l1)
+l1.pop(3)
+print("l1 = ",l1)
+l1.pop(20)
+print("l1 = ",l1)

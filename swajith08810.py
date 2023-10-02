@@ -1,0 +1,7 @@
+t1 = (1,2,3)
+t2 = (4,5,6)
+t3 = (1,2,3,4)
+print(" Index position of element 5 in t2 ",t2.index(5))
+print(" Index position of element 4 in t3 ",t3.index(4))
+t4 = (1,2,3,4,2,5,6,2,3)
+print(" no.of times 2 present in t4 ",t4.count(2))

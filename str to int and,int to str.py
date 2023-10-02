@@ -1,0 +1,14 @@
+temp=45
+hum=65
+gas=121
+c=str(temp)+str(hum)+str(gas)
+print(c)
+d=int(c[0:2])
+print(d)
+print(type(d))
+e=int(c[2:4])
+print(e)
+print(type(e))
+f=int(c[4:7])
+print(f)
+print(type(f))
